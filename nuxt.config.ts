@@ -19,5 +19,6 @@ export default defineNuxtConfig({
     "element-plus/theme-chalk/dark/css-vars.css",
     "@/assets/css/main.css",
   ],
+  modules: ["@unocss/nuxt"],
   devtools: { enabled: true },
 });
